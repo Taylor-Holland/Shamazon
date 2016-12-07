@@ -30,11 +30,10 @@ html {
 
 .header_constant {
   width: 100%;
-  height:150px;
+  height:175px;
   background-color: #305673;
   padding-top: 0px;
   position: relative;
-  z-index: -1;
 }
 
 h2.Shamazon_title {
@@ -74,7 +73,20 @@ li a:hover {
     background-color: #111;
 }
 
+.product_details {
+  font-family: helvetica;
+}
+
+.checkout_steps {
+  font-family: helvetica;
+  font-size: 18px;
+}
+
 .Form_Area {
+}
+
+.Form_Area_2 {
+
 }
 
 .Form_Area input {
@@ -86,8 +98,29 @@ li a:hover {
   margin-bottom: 20px;
 }
 
+.Form_Area_2 input {
+  height: 35px;
+  font-size: 18px;
+  font-family: helvetica;
+  border:0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+input.very_Small {
+  width: 145px;
+  height: 35px;
+  margin-right: 15px;
+}
+
 input.Small {
   width: 220px;
+  height: 35px;
+  margin-right: 15px;
+}
+
+input.medium {
+  width: 300px;
   height: 35px;
   margin-right: 15px;
 }
@@ -145,7 +178,7 @@ body {
   height: 40px;
   position: relative;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(25px);
 }
 
 .search-icon {
@@ -156,6 +189,14 @@ height: 46px;
 transform: translateY(55%);
 }
 
+.search-icon_right {
+  background-color: #e4b833;
+float: right;
+width: 60px;
+height: 46px;
+transform: translateY(73px);
+}
+
 .magnifying_glass {
   width: 55px;
   height: 40px;
@@ -164,6 +205,17 @@ transform: translateY(55%);
 .body-container {
   width: 100%;
   height: 1000px;
+}
+
+.body-container_constant {
+  width: 100%;
+  height: 900px;
+}
+
+.checkout_body {
+  width: 960px;
+  height: 1000px;
+  padding-left: 50px;
 }
 
 h1 {
@@ -199,11 +251,25 @@ h3 {
   margin-bottom: 10px;
 }
 
+.iphone_7 {
+  width: 345px;
+  height: 435px;
+  float: left;
+  margin-left: 75px;
+  margin-bottom: 10px;
+}
+
 .large {
   width: 340px;
   float: left;
   position: relative;;
   z-index: -1;
+}
+
+.large_iPhone {
+  width: 300px;
+  height: 240;
+  position: relative;
 }
 
 .small {
@@ -214,10 +280,49 @@ h3 {
   z-index: -1;
 }
 
+.small_iPhone {
+  clear: left;
+  position: relative;
+  margin-bottom: 20px;
+  margin-right: 5px;
+}
+
+.small_iPhone_2 {
+  clear: right;
+  position: relative;
+  margin-bottom: 20px;
+  margin-right: 5px;
+}
+
 .small_daily {
   height: 50%;
   width: 120px;
   margin-right: 20px;
+}
+
+.Cart_Button {
+  height: 60px;
+  width: 200px;
+  clear: right;
+  background-color: #e4b833;
+  float: left;
+}
+
+.p_Cart_Buttion {
+  text-align: center;
+  font-family: helvetica;
+  font-size: 18px;
+
+}
+
+.Price {
+  font-size: 18px;
+  font-family: helvetica;
+}
+
+.Protection-plan {
+  width: 227px;
+  height: 93px;
 }
 
 .Daily-Deals {
@@ -234,10 +339,21 @@ h3 {
   font-size: 8pt;
   color: white;
   margin-left: auto;
+  transform: translateX(50px);
+}
+
+.footer_h3 {
+  transform: translateX(50px);
 }
 
 .footer_text_copyright {
   font-size: 8pt;
   color: white;
   text-align: center;
+}
+
+.product_title {
+  color: #305673;
+  font-size: 40px;
+  font-family: helvetica;
 }
