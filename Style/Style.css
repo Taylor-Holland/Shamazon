@@ -82,6 +82,18 @@ li a:hover {
   font-size: 18px;
 }
 
+.drop_down{
+}
+
+.drop_down input {
+  height: 35px;
+  font-size: 18px;
+  font-family: helvetica;
+  border:0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
 .Form_Area {
 }
 
@@ -209,11 +221,21 @@ transform: translateY(73px);
 
 .body-container_constant {
   width: 100%;
-  height: 900px;
+  height: 1000px;
+}
+
+.Place_Order {
+width: 25%;
+float: right;
+clear: right;
+position:absolute;
+transform: translateX(900px);
+  width: 25%;
 }
 
 .checkout_body {
-  width: 960px;
+  width: 75%;
+  float: left;
   height: 1000px;
   padding-left: 50px;
 }
@@ -262,7 +284,7 @@ h3 {
 .large {
   width: 340px;
   float: left;
-  position: relative;;
+  position: relative;
   z-index: -1;
 }
 
@@ -294,6 +316,13 @@ h3 {
   margin-right: 5px;
 }
 
+.small_iPhone_3 {
+  float: left;
+  position: relative;
+  margin-bottom: 20px;
+  margin-right: 5px;
+}
+
 .small_daily {
   height: 50%;
   width: 120px;
@@ -308,11 +337,15 @@ h3 {
   float: left;
 }
 
-.p_Cart_Buttion {
+.p_Cart_Button {
   text-align: center;
   font-family: helvetica;
   font-size: 18px;
+}
 
+.Order_Font {
+  font-family: helvetica;
+  font-size: 16px;
 }
 
 .Price {
@@ -334,8 +367,10 @@ h3 {
   width: 100%;
   height:125px;
   background-color: #305673;
+  margin-bottom: 0;
 }
 .footer_text {
+  clear: left;
   font-size: 8pt;
   color: white;
   margin-left: auto;
